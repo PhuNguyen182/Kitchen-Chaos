@@ -1,5 +1,35 @@
 {
   "dependencies": {
+    "com.cysharp.messagepipe": {
+      "version": "1.8.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.cysharp.r3": {
+      "version": "1.1.13",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.cysharp.unitask": {
+      "version": "2.5.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.github-glitchenzo.nugetforunity": {
+      "version": "4.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -209,6 +239,15 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "games.corundum.stateless-for-unity": {
+      "version": "5.11.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.cysharp.unitask": "2.2.5"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
