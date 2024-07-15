@@ -38,6 +38,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3338465629
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Effect
+    uniqueID: 268257921
+    locked: 0
+  - name: UI
+    uniqueID: 2551023657
+    locked: 0
+  - name: UIObject
+    uniqueID: 2367222815
+    locked: 0
+  - name: UIEffect
+    uniqueID: 532288029
+    locked: 0
+  - name: TopMost
+    uniqueID: 3673493571
     locked: 0
