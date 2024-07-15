@@ -13,8 +13,11 @@ namespace KitchenChaos.Scripts.Inputs
         public bool InteractAlternative => _inputActions.PlayerController.InteractAlternative.WasPressedThisFrame();
         public Vector2 Movement { get; private set; }
 
+        public static InputActionController Instance { get; private set; }
+
         private void Awake()
         {
+            Instance = this;
             _inputActions = new();
 
             _inputActions.PlayerController.Movement.started += MovementHandle;
